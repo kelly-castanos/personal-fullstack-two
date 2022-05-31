@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>Work Post-its</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span class="fa fa-anchor"></span> Profile</h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+        <section class ="secWelcome">
+
+            <h2>Welcome!<br><br>
+            Busy? <italic>Right</italic> It Down!</h2>
+
+            <form action = "/notes" method ="POST">
+                
+                <button class ="goToNotes" type ="submit">Create a Note!</button>
+
+            </form>
+      
+
+        </section>
+
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>

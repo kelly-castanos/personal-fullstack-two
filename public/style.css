@@ -1,0 +1,15 @@
+.secWelcome{
+  text-align: center;
+}
+body{
+  background-color: white;
+  background-image: url('https://us.123rf.com/450wm/7n23/7n232104/7n23210400027/170822474-4-white-notes-and-pink-yellow-and-green-sticky-notes-i-pasted-it-with-colorful-masking-tape-.jpg?ver=6');
+}
+.row{
+  background-color: pink;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+}
+
+
